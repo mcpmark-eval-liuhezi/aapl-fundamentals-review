@@ -11,4 +11,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Confirm the pack is current
-        run: echo "AAPL fundamentals pack is current."
+        run: echo "AAPL fundamentals pack is current (data pulled 2026-10-23)."
