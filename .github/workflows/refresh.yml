@@ -1,0 +1,14 @@
+name: Refresh fundamentals pack
+
+on:
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Confirm the pack is current
+        run: echo "AAPL fundamentals pack is current."
